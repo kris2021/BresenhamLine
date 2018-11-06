@@ -10,6 +10,8 @@ namespace CIST2745
 		public Material ColorOff;
 		public Material ColorOn;
 		public Line line;
+		public bool test = false;
+		public TextManager textManager;
 
 		public void ColorChange(bool State)
 		{
@@ -19,6 +21,7 @@ namespace CIST2745
 		// Use this for initialization
 		public void Start () {
 			line = FindObjectOfType<Line> ();
+			textManager = FindObjectOfType<TextManager> ();
 		}
 
 		// Update is called once per frame

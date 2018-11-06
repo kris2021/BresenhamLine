@@ -19,7 +19,7 @@ namespace CIST2745
 		public Vector3 startPoint;
 		public Vector3 endPoint;
 
-		public float x1, y1, x2, y2;
+		public int x1, y1, x2, y2;
 		public float rise = 0f;
 		public float run = 0f;
 		public float slope = 0f;
