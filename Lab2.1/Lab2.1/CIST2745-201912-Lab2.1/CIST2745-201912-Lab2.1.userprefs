@@ -4,8 +4,8 @@
     <Files>
       <File FileName="Assets\GridScript.cs" Line="1" Column="1" />
       <File FileName="Assets\TileScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\BoxScript.cs" Line="86" Column="5" />
-      <File FileName="Assets\TextManager.cs" Line="105" Column="6" />
+      <File FileName="Assets\BoxScript.cs" Line="29" Column="4" />
+      <File FileName="Assets\TextManager.cs" Line="26" Column="1" />
       <File FileName="Assets\Line.cs" Line="52" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
