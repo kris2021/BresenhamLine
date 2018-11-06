@@ -1,0 +1,47 @@
+syntax: glob
+.DS_Store
+*.booproj
+*.csproj
+*.mdb
+*.orig
+*.orig.meta
+*.pidb
+*.sln
+*.suo
+*.unitypackage
+*.unityproj
+*.userprefs
+
+Assets/Third Party Tools/TK2DROOT/-tk2d.asset
+Assets/Third Party Tools/TK2DROOT/-tk2d.asset.meta
+Assets/Third Party Tools/SWS/Meshes/Terrain.asset
+Assets/Third Party Tools/SWS/Meshes/Terrain.asset.meta
+Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll
+Assets/StreamingAssets/bundles/
+Assets/StreamingAssets/bundles.meta
+
+Thumbs.db*
+
+syntax: regexp
+(?i)^AssetBundles/.*
+(?i)^Build/.*
+(?i)^Builds/.*
+(?i)^Library/.*
+(?i)^Logs/.*
+(?i)^Temp/.*
+(?i)^obj/.*
+(?i)^ExternalGames/.*
+(?i)^cache/.*
+
+(?i)^LOTR2 CIST 2741-201814/AssetBundles/.*
+(?i)^LOTR2 CIST 2741-201814/Build/.*
+(?i)^LOTR2 CIST 2741-201814/Builds/.*
+(?i)^LOTR2 CIST 2741-201814/Library/.*
+(?i)^LOTR2 CIST 2741-201814/Logs/.*
+(?i)^LOTR2 CIST 2741-201814/Temp/.*
+(?i)^LOTR2 CIST 2741-201814/obj/.*
+(?i)^LOTR2 CIST 2741-201814/ExternalGames/.*
+(?i)^LOTR2 CIST 2741-201814/cache/.*
+
+syntax: glob
+

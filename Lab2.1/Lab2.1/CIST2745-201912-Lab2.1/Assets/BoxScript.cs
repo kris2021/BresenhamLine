@@ -37,7 +37,7 @@ namespace CIST2745
 			{
 				for (int z = 0; z < Height; z++) 
 				{
-					go = this.gameObject.transform.FindChild("Tile_" + x.ToString () + "_" + z.ToString ()).gameObject;
+					go = this.gameObject.transform.Find("Tile_" + x.ToString () + "_" + z.ToString ()).gameObject;
 					ts = go.GetComponent<BoxScript>();
 					bool cOn = (((x % 2) == 0) && ((z % 2) == 0));
 					ts.ColorChange (false);
@@ -115,7 +115,7 @@ namespace CIST2745
 
 		public void plot(int x, int y)
 		{
-			GameObject go = this.gameObject.transform.FindChild("Tile_" + x.ToString () + "_" + y.ToString ()).gameObject;
+			GameObject go = this.gameObject.transform.Find("Tile_" + x.ToString () + "_" + y.ToString ()).gameObject;
 			BoxScript ts = go.GetComponent<BoxScript>();
 
 
