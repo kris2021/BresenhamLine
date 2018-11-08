@@ -26,7 +26,10 @@ namespace CIST2745
 
 		// Update is called once per frame
 		public void Update () {
-			
+			if (Input.GetKeyDown (KeyCode.B))
+			{
+				plotLine(textManager.x1, textManager.y1, textManager.x2, textManager.y2);
+			}
 		}
 
 		private void Clear()
@@ -121,7 +124,7 @@ namespace CIST2745
 			GameObject go = this.gameObject.transform.Find("Tile_" + x.ToString () + "_" + y.ToString ()).gameObject;
 			BoxScript ts = go.GetComponent<BoxScript>();
 
-
+			//GridScript.gridlist[x][y].GetComponent<Renderer>().material = GridScript.gridlist[x][y].GetComponent<BoxScript>().ColorOn;
 			ts.ColorChange (true);
 		}
 
