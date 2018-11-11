@@ -10,6 +10,7 @@ namespace CIST2745
 		public int Height = 0;
 		public int Width = 0;
 		public int Scale = 1;
+		public List<int> gridList;
 
 		//public int[,] gridBox;
 

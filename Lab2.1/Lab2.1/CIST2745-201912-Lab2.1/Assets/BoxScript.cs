@@ -121,11 +121,12 @@ namespace CIST2745
 
 		public void plot(int x, int y)
 		{
+			
 			GameObject go = this.gameObject.transform.Find("Tile_" + x.ToString () + "_" + y.ToString ()).gameObject;
-			BoxScript ts = go.GetComponent<BoxScript>();
+			//BoxScript ts = go.GetComponent<BoxScript>();
 
-			//GridScript.gridlist[x][y].GetComponent<Renderer>().material = GridScript.gridlist[x][y].GetComponent<BoxScript>().ColorOn;
-			ts.ColorChange (true);
+			GridScript.gridList[x][y].GetComponent<Renderer>().material = GridScript.gridList[x][y].GetComponent<BoxScript>().ColorOn;
+			//ts.ColorChange (true);
 		}
 
 
